@@ -17,6 +17,5 @@
 * [4.1 執行與驗證結果](chapter4.1.md)
 
 * [5. 實作 Wifi Module](chapter5.md)
-* [5.1 實作 Wifi Module](chapter5.1.md)
 
 * [參考資料](REFERENCE.md)
