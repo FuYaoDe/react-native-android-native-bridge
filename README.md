@@ -1,4 +1,4 @@
-# React Native Bridge 入門 Android 篇（一）：Toast 實作
+# React Native Bridge 入門 Android 篇
 
 > lastUpdate @ 20180201
 
