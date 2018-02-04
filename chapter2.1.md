@@ -18,7 +18,7 @@
 └──README.md
 ```
 
-```java=
+```java
 public class RNMyAndroidToastModule extends ReactContextBaseJavaModule {  
   
    private final ReactApplicationContext reactContext;  

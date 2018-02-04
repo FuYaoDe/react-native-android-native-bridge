@@ -44,7 +44,7 @@
 └──README.md
 ```
 
-```java=
+```java
 public class RNMyAndroidToastPackage implements ReactPackage {  
    @Override  
    public List<NativeModule\> createNativeModules(ReactApplicationContext reactContext) {  
@@ -81,7 +81,7 @@ public class RNMyAndroidToastPackage implements ReactPackage {
 └──README.md
 ```
 
-```java=
+```java
 public class RNMyAndroidToastModule extends ReactContextBaseJavaModule {  
   
    private final ReactApplicationContext reactContext;  
@@ -120,7 +120,7 @@ public class RNMyAndroidToastModule extends ReactContextBaseJavaModule {
 
 此檔案是整個 native module 的 JavaScript 進入點，我們可以在這裡額外針對要 export 的物件做處理，例如加上 event handler，定義 event 或 callback 發生時由哪個 method 負責。
 
-```javascript=
+```javascript
 import { NativeModules } from  'react-native';
 
 // 由 react native 套件中取出已經註冊的 Native module

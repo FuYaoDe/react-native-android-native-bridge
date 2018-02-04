@@ -8,13 +8,13 @@
 
 請在最上方加入以下程式碼：
 
-```javascript=
+```javascript
 import MyAndroidToast from 'react-native-my-android-toast';
 ```
 
 現在起即可在需要的地方，透過以下方式呼叫 Toast！
 
-```javascript=
+```javascript
 // 輸出 'hi! My Project is TOSTED!' 文字，
 // 並指定顯示時間為 MyAndroidToast.SHORT
 MyAndroidToast.show('My Project is TOSTED!', MyAndroidToast.SHORT);
@@ -24,7 +24,7 @@ MyAndroidToast.show('My Project is TOSTED!', MyAndroidToast.SHORT);
 
 在以下範例中，我會加入一個 React Native Button 元件，並透過它執行 Toast。
 
-```javascript=
+```javascript
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native

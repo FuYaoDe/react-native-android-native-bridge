@@ -1,14 +1,5 @@
 # 初始化專案 - 新增樣板與專案
 
-## 環境準備
-
-- Android Studio @ 3.0+
-- JDK @ 1.8+
-- Node.js @ 8.9.x
-- React Native @ 0.52.2
-- React Native CLI
-- yarn
-
 ## Native module 架構說明
 
 一個支援 Android / iOS 雙平台的 Native Module 專案內應該會包含以下結構：
@@ -124,7 +115,7 @@ Options:
 
 例如：
 
-```javascript=
+```javascript
 // 亦即 import {library_name} from {module_name}
 import MyAndroidToast from  'react-native-my-android-toast';
 ```
