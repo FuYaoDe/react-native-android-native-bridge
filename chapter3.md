@@ -1,4 +1,4 @@
-# Linking
+# Linking Projects
 
 ## Link native module 以及 React Native project
 

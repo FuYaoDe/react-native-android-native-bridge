@@ -1,6 +1,8 @@
-# 修正樣板 Gradle 版本
+# 初始化專案
 
-## 使用 Android Studio 開啟樣板專案
+## 修正樣板 Gradle 版本
+
+### 使用 Android Studio 開啟樣板專案
 
 由於我們的目標是撰寫一套可以使用原生 Android `Toast` 功能的 native nodule，所以我們需要透過 Android Studio 打開專案資料夾中的 `android` 目錄。
 
@@ -19,7 +21,7 @@
 
 ![](https://i.imgur.com/KSQANOp.png)
 
-## 修正樣板 Gradle 版本
+### 修正樣板 Gradle 版本
 
 如果你跟我使用相同版本，在某些情況下，你可能會遇到跟我一樣的問題：Android Studio 提示樣板需要使用不同的 Gradle 版本。
 
@@ -45,7 +47,7 @@ classpath 'com.android.tools.build:gradle:`1.3.1`'
 
 依據文件說明，版本更新 Gradle 版本可以帶來巨大的好處：編譯專案時間會顯著減少。但是如果 Native module 使用的版本與 React Native 專案不同或相差太大，可能會有額外的問題產生。
 
-## 手動更新 Gradle 與 Android Plugin 版本
+### 手動更新 Gradle 與 Android Plugin 版本
 
 依據文件說明，我們可以透過 `Project Strucature` 選單內的 `Proejct` 頁籤設定 Gradle 與 Android Plugin 版本。
 

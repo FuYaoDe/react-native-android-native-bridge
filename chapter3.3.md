@@ -1,6 +1,6 @@
-# Linking
+# Linking Projects
 
-## 有問題嗎？
+## 疑難解答 - 有問題嗎？
 
 有時候開發 Native module 時會遇到明明已經 `yarn link`、也已經 `react-native link`，build 也正常，但使用 console.log 查看 module 內容卻都是 `undefinded`。
 
